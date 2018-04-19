@@ -310,7 +310,7 @@ class UserController extends BaseController
             "type" => $type,//1支付宝支付 2QQ钱包 3微信支付 
             "price" => $price,//金额100元
             "param" => "",//自定义参数
-            "notify_url"=> $url.'/codepay_callback',//通知地址
+            "notify_url"=> $url.'/codepay_pay_callback',//通知地址
             "return_url"=> $url.'/codepay_callback',//跳转地址
         ); //构造需要传递的参数
 
