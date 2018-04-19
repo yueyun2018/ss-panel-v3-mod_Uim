@@ -26,7 +26,7 @@ class Pay
             case 'codepay':
                 return Pay::codepay_html($user);
             case 'f2fpay_codepay_html':
-                return Pay::f2fpay_codepay($user);
+                return Pay::f2fpay_codepay_html($user);
             default:
                 return "";
         }
