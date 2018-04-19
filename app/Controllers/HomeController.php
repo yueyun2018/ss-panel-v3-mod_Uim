@@ -122,11 +122,11 @@ class HomeController extends BaseController
   
     public function f2fpay_pay_callback($request, $response, $args)
     {
-        Pay::f2fpay_callback($request);
+        Pay::f2fpay_pay_callback($request);
     }
   
     public function codepay_pay_callback($request, $response, $args)
     {
-        Pay::codepay_callback($request);
+        Pay::codepay_pay_callback($request);
     }
 }

@@ -833,4 +833,14 @@ class Pay
         }
         return null;
     }
+
+    public static function f2fpay_pay_callback($request)
+    {
+        return Pay::f2fpay_callback();
+    }
+
+    public static function codepay_pay_callback($request)
+    {
+        return Pay::codepay_callback();
+    }
 }
