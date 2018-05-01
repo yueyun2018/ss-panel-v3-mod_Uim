@@ -4,9 +4,9 @@
 
 
 //基础设置-----------------------------------------------------------------------
-$System_Config['key'] = '114514';			// !!! 瞎jb修改此key为随机字符串确保网站安全 !!!
+$System_Config['key'] = '1740232291';			// !!! 瞎jb修改此key为随机字符串确保网站安全 !!!
 $System_Config['debug'] =  'false';  //  正式环境请确保为false
-$System_Config['appName'] = '';             //站点名称
+$System_Config['appName'] = '月云';             //站点名称
 $System_Config['baseUrl'] = 'http://url.com';            // 站点地址
 $System_Config['timeZone'] = 'PRC';        // PRC 天朝时间  UTC 格林时间
 $System_Config['pwdMethod'] = 'sha256';       // 密码加密   可选 md5,sha256
@@ -33,6 +33,7 @@ $System_Config['Speedtest_duration']='6';      //测速周期/h
 //数据库设置---------------------------------------------------------------------
 $System_Config['db_driver'] = 'mysql';
 $System_Config['db_host'] = 'localhost';
+$System_Config[‘db_port’] = ‘3306’;
 $System_Config['db_database'] = '';
 $System_Config['db_username'] = 'root';
 $System_Config['db_password'] = '';
